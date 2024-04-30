@@ -1,0 +1,711 @@
+/*..........................................Below is the code to style the main page (index page).................................*/
+body{
+    margin: 0;
+    border: 0;
+}
+/*.......................................The top menu for all pages.................................................................*/
+  .logo-item {
+    margin-right: 5px; 
+    padding: 0;
+}
+
+ul {
+    position: fixed;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+
+  li a {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+    }
+  
+  
+  li a:hover {
+    background-color: #73737346;
+  }
+
+
+
+/*..................................This is the code for the mall index page..........................................*/
+.specials {
+    margin-top: 2%; 
+    margin-bottom: 2%;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+   
+    
+}
+.specials img{
+border-radius: 8px 8px 8px 8px;
+}
+ 
+.specials a{
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+.specials a:hover {
+  transform: scale(1.1);
+   opacity: 0.8;
+  
+}
+
+.Search-Section{
+  padding: 20px;
+}
+
+.Search-Section h2{
+text-align: center;
+color: rgb(93, 92, 93);
+
+}
+.Search-Section p{
+  text-align: center;
+  color:rgb(254, 86, 198);
+  
+}
+
+.shop-logos img{
+  width: 150px;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+.shop-logos img:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+ 
+}
+.Search-bar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Search-bar table {
+border-collapse: collapse;
+}
+
+.Search-bar th {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.search-button{
+  background-color: rgb(254, 86, 198);
+}
+/*........................................Below is the code for the mall about page.................................................*/
+
+.mall-images{
+  padding-left: 40px;
+}
+.aboutus-wording{
+  background-color: #00000085;
+  color: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+  margin: 20px;
+  border: #000000 solid 2px;
+}
+/*........................................Below is the code for the mall contact page.................................................*/
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+h1, p {
+  margin-bottom: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+.contact-us {
+  margin-top: 50px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+/*........................................Below is the code for the mall message recived page.................................................*/
+.pinecitymessage-received{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*........................................Below is the code for the SHOP  page.................................................*/
+.Search-Section{
+  padding-top: 10%;
+}
+.Shop-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  border: none;
+ 
+}
+ .Shop-list table{
+  border-collapse: collapse;
+  border: white;
+ }
+
+.logo img{
+ width: 100px;
+}
+
+.Shop-list tr{
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+  border-color: white;
+  
+}
+.akermans:hover {
+  box-shadow: 0 0 50px rgba(1, 78, 28, 0.767);
+  padding: 10px;
+  transform: scale(1.02);
+}
+.mrprice:hover{
+  box-shadow: 20px 20px 10px -10px rgba(248, 43, 43, 0.297), -10px -15px 10px -5px rgba(4, 4, 4, 0.5);
+  padding: 10px;
+  transform: scale(1.02);
+}
+
+.sneakpeakfootwear:hover{
+  box-shadow: 0 0 50px rgba(96, 0, 0, 0.815);
+  transform: scale(1.02);
+}
+.trendluxe:hover{
+  box-shadow: 0 0 50px rgba(255, 252, 76, 0.815);
+  transform: scale(1.02);
+}
+.bookwander:hover{  
+  box-shadow: 20px 20px 10px -10px rgba(218, 189, 26, 0.348), -10px -15px 10px -5px rgba(14, 235, 247, 0.5); 
+  transform: scale(1.02);
+}
+.serenityspaemporium:hover{
+  box-shadow: 0 0 50px rgba(19, 109, 0, 0.815);  
+  transform: scale(1.02);
+}
+.techtrendz:hover{
+  box-shadow: 0 0 50px rgba(4, 1, 162, 0.815);  
+  transform: scale(1.02);
+}
+.timewarpcinema:hover{
+  box-shadow: 0 0 50px goldenrod;  
+  transform: scale(1.02);
+}
+.toytreasuretrove:hover{
+  box-shadow: 0 0 50px rgb(12, 254, 254) ; 
+  transform: scale(1.02);
+}
+.brewburstcafe:hover{
+  box-shadow: 0 0 50px rgb(136, 100, 52) ; 
+  transform: scale(1.02);
+}
+.gourmethaven:hover{
+  box-shadow: 20px 20px 10px -10px rgba(218, 189, 26, 0.348), -10px -15px 10px -5px rgba(1, 100, 9, 0.5);   
+  transform: scale(1.02);
+}
+.picknpay:hover{
+  box-shadow: 20px 20px 10px -10px rgba(1, 14, 84, 0.348), -10px -15px 10px -5px rgba(250, 5, 5, 0.5);   
+  transform: scale(1.02); 
+}
+.sweetserenadeconfections:hover{
+  box-shadow: 0 0 20px rgb(6, 0, 86) ; 
+  transform: scale(1.02); 
+  
+}
+.pinecitymall:hover{
+  box-shadow: 20px 20px 10px -10px rgba(161, 156, 10, 0.348), -10px -15px 10px -5px rgba(126, 81, 3, 0.5);   
+  transform: scale(1.02); 
+}
+
+/*......................................Below is the code for the MAP................................*/
+
+.map-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding-top: 5%;
+}
+
+.mall-map {
+  max-width: 50%; 
+  margin-right: 10px; 
+}
+
+.map-list li {
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.map-shops{
+border-collapse: collapse;
+border: none;
+border: #ffffff;
+}
+.map-shops tr ,td {
+  padding: 0 ;
+
+}
+
+.map-shops p{
+  font-weight: 800;
+  font-size: 10px;
+}
+
+.map-shops img{
+  padding: 0;
+  width: 50px;
+}
+
+/*.......................................Below is the code for the movies page..............................*/
+
+.movie-page-menu{
+padding-bottom: 5%;
+}
+.movie-page-menu ul {
+  position: fixed;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #00000051;
+  overflow: hidden;
+}
+
+.movie-page-menu li {
+  float: left;
+}
+
+.movie-page-menu li a {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+  }
+
+.movie-page-menu li a:hover {
+  background-color: #fbb65b7e;
+}
+
+.moviebackground{
+  background-color: #000000;
+  
+}
+
+.TimeWarplogo{ 
+
+  display: flex;   
+}
+
+.specials-movie{
+  background-image: url(images/popcorn.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-collapse: collapse;
+  border: none;
+}
+.specials-movie h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  color: rgba(232, 144, 10, 0.832);
+}
+.specials-movie p{
+  font-size: 20px;
+  font-family: cursive;
+  color: #ffffff;
+}
+.timewarpwording{
+  background-color: #00000090;
+  width: 100%;
+}
+.specials-movie img{
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.specials-movie td{
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+
+/*...................................The code below is for the movie list....................................*/
+
+
+.movie-item-background{
+  background-color: #000000;
+}
+ .movie-list table {
+  background-color: #000000;
+  border-collapse: collapse;
+  border-spacing: 10px ;
+  border: none;
+  border: #000000;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  padding-top: 5%;
+}
+/*The tables headings*/
+.movie-list tr {
+  text-align: center;
+}
+.movie-list td{
+  padding: 20px;
+  box-shadow: 0px 0px 30px #d4af3780;;  
+}
+.movie-showing td{
+  padding: 10px;
+  text-align: left;
+  box-shadow: none;
+}
+.movie-showing h3{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 800;
+  color: orange;
+}
+.movie-showing p{
+  color: grey;
+}
+.movie-list img{
+  transition: transform 0.3s, box-shadow 0.3s;
+  
+}
+.tenlives:hover img{
+  transform: translateY(-10px);
+
+}
+.migration:hover img{
+  transform: translateY(-10px);
+
+}
+.thejunglebunch:hover img{
+  transform: translateY(-10px);
+
+}
+.kungfupanda:hover img{
+  transform: translateY(-10px);
+ 
+}
+.anyonebutyou:hover img{
+  transform: translateY(-10px);
+ 
+}
+.teribaaton:hover img{
+  transform: translateY(-10px);
+  
+}
+.challengers:hover img{
+  transform: translateY(-10px);
+
+}
+.deadpool:hover img{
+  transform: translateY(-10px);
+  
+}
+.abigail:hover img{
+  transform: translateY(-10px);
+
+}
+.sleepingdogs:hover img{
+  transform: translateY(-10px);
+  
+}
+.thefirstohmen:hover img{
+  transform: translateY(-10px);
+  
+}
+.ghostbsuters:hover img{
+  transform: translateY(-10px);
+  
+}
+
+/*................................This is the code for each movie and its information...........................*/
+.movie-info-background{
+ background-image: url(images/blackbrickwall.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+}
+.movie-info table{
+  border-collapse: collapse;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+ 
+}
+
+.movie-info h3{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 0;
+  color: orange;
+  font-weight: 800;
+}
+.movie-info p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 0;
+  color: rgb(207, 207, 207);
+ 
+}
+.movie-info h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 0;
+  color: orange;
+  font-weight: 800;
+  font-size: 50px;
+}
+
+
+/*....................................................CONTACT US PAGE.......................................*/
+
+.info-box-full{
+  padding: 30px;
+}
+.info-box-full p{ 
+  color: orange;
+}
+.info-box-full h3{
+  color: white;
+}
+input{
+  width: 50%;
+  height: 25px;
+  margin : 12px 0;
+  border : 1px solid #929292;
+}
+
+textarea{
+  width: 50%;
+  height :100px;
+  margin : 12px 0;
+  border : 1px solid #929292;
+}
+
+.button{
+  display : block;
+  background-color: rgb(180, 115, 3);
+  border-radius: 2px 2px 2px 2px;
+  width: 13%;
+  text-decoration : none;
+  text-align  : center;
+  color       : white;
+  font-size   : 16px;
+  font-weight : 600;
+  margin : 12px 0;
+  padding : 8px 0;
+}
+
+.tabs-bottom {
+  background-color: #000000;
+  position: relative;
+  bottom: 0%;
+  left: 0;
+  z-index: 500;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.tabs-bottom a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.tabs-bottom h3 {
+  color: orange;
+  font-size: 25px;
+  padding-left: 30px;
+}
+
+.tabs-bottom p {
+  color: rgb(129, 128, 128);
+  padding-left: 30px;
+  font-size: 20px;
+}
+
+.ContactUs a {
+ 
+  display: inline-block;
+  color: rgb(108, 107, 107);  
+  margin-right: 10px; 
+  padding-left: 30px;
+}
+
+/*.......................................Message Recived Page..........................................................*/
+ .message{
+  text-align: center;
+  padding-bottom: 20%;
+  padding-top: 3%;
+ }
+ 
+.message h3{
+color: orange;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 30px;
+}
+.message p{
+  font-family:cursive;
+  color: rgb(176, 174, 174);
+}
+
+/*..............................Toy Tresure Trove....................................*/
+.toystore-background{
+  background-image: url(images/paintsplash.jpg);
+}
+.shop-location{
+  position:absolute;
+  top: 10%;
+  left: 60%;
+  z-index: 5;
+
+}
+
+.toystorecover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+ 
+}
+
+.toyslist-background{
+ background-image: url(images/paintsplash.jpg);
+}
+.toysadvert{
+  position:absolute;
+  top: 10%;
+  left: 20%;
+  padding: 50px;
+ 
+
+}
+.toyspictures{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20%;
+  padding-bottom: 5%;
+ 
+}
+.toyspictures td{
+  padding: 50px;
+}
+
+
+/*...................................................CLOTHING STORE PAGE...................................................................*/
+
+.trendluxe-menu ul {
+    position: fixed;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff00;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .trendluxe-menu li {
+    float: left;
+  }
+
+  .trendluxe-menu li a {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+    }
+  
+  
+    .trendluxe-menu li a:hover {
+    background-color: #73737346;
+  }
+
+  .trendluxe-background{
+    background-image: url(images/trendluxebacjground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.model{
+  position:absolute;
+  top: 30%;
+  right: 20%;
+  padding: 50px;
+}
+.man-model{
+  position:absolute;
+  top: 10%;
+  right: 5%;
+  padding: 50px;
+}
+.trendluxe-welcome{
+  position:absolute;
+  top: 5%;
+   left: 35%;
+  padding: 50px;
+}
+
+
+/*......................................CLOTHINNG STORE ABOUT PAGE....................................*/
+
+
+.abouttrendluxe{
+  position:fixed;
+  top: 5%;
+  right: 0%;
+  padding: 50px;
+ 
+}
+.abouttrendluxe h1{
+  font-size: 100px;
+}
+
+/*..........................CLOTHING STORE CONTACT PAGE...................................................*/
+.trendluxe-contact{
+  position:fixed;
+  top: 5%;
+  right: 0%;
+  padding: 50px;
+}
+/*..........................CLOTHING STORE THANK YOU PAGE...................................................*/
+.trendluxethankyou{
+  position:fixed;
+  top: 40%;
+  right: 5%;
+  padding: 50px;
+}
